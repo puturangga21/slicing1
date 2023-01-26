@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap");
+
+* {
+   margin: 0px;
+   padding: 0px;
+   transition: all 0.3s ease;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+
+   /* border: 0.5px solid white; */
+}
+
+:root {
+   --color-bg: #000000;
+   --color-font: #fff;
+   --color-primary: #c8fec7;
+   --color-primary2: #925ff0;
+}
+
+body {
+   font-family: "Anton", sans-serif;
+   background-color: #000000;
+}
+
+.wrapper {
+   width: 1440px;
+   margin: 0 auto;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 9999;
+}
+
+.wrapper.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 120px;
+}
+
+.navbar-nav ul {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+
+.navbar-nav.active {
+   right: 0;
+}
+
+.wrapper.navbar .navbar-nav a {
+   color: var(--color-font);
+   font-family: "Poppins", sans-serif;
+   font-size: 16px;
+   display: inline-block;
+}
+
+.wrapper.navbar .navbar-nav a:hover {
+   color: var(--color-primary2);
+   transform: translate(0, -2px);
+}
+
+.wrapper.navbar .btn-contact {
+   padding: 12px 24px;
+   background: #925ff0;
+   border-radius: 4px;
+   color: var(--color-font);
+   font-family: "Poppins", sans-serif;
+}
+
+.wrapper.navbar .navbar-button {
+   display: flex;
+   align-items: center;
+}
+
+.wrapper.navbar .navbar-button a {
+   font-size: 30px;
+   color: var(--color-font);
+}
+
+.wrapper.navbar .navbar-button a:hover {
+   color: var(--color-primary2);
+}
+
+#hamburger-menu {
+   display: none;
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+   html {
+      font-size: 12px;
+   }
+   .wrapper {
+      width: 700px;
+   }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+   .wrapper {
+      width: 600px;
+   }
+}
+
+/* Mobile */
+@media (max-width: 458px) {
+   .wrapper {
+      width: 300px;
+   }
+
+   #hamburger-menu {
+      display: inline-block;
+   }
+
+   .wrapper.navbar {
+      height: 70px;
+   }
+
+   .navbar-nav {
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      background-color: #fff;
+      width: 300px;
+      height: 100vh;
+   }
+
+   .btn-contact {
+      display: none;
+   }
+
+   .wrapper.navbar .navbar-nav a {
+      color: var(--color-bg);
+   }
+
+   .wrapper.navbar .navbar-nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 20px;
+      gap: 30px;
+   }
+}
