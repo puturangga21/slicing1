@@ -180,45 +180,6 @@ nav {
    .wrapper {
       width: 600px;
    }
-
-   section .hero {
-      width: 500px;
-   }
-
-   .hero {
-      margin-top: 30px;
-      display: block;
-   }
-
-   .hero .wrapper.hero {
-      display: block;
-   }
-
-   .kanan-hero,
-   .portal-hero {
-      display: none;
-   }
-
-   .kiri-hero .title-hero h1 {
-      font-size: 145px;
-   }
-
-   .kiri-hero .title-hero h2 {
-      font-size: 82px;
-   }
-
-   .second-section-hero .social-hero {
-      gap: 36px;
-   }
-
-   .second-section-hero .btn-cv {
-      width: 500px;
-      margin-top: 35px;
-   }
-
-   .wrapper.hero .second-section-hero {
-      margin-top: 50px;
-   }
 }
 
 /* Mobile */
