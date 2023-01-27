@@ -173,6 +173,11 @@ nav {
    .wrapper {
       width: 700px;
    }
+
+   .portal-hero,
+   .kanan-hero {
+      display: none;
+   }
 }
 
 /* Tablet */
@@ -181,43 +186,48 @@ nav {
       width: 600px;
    }
 
-   section .hero {
-      width: 500px;
-   }
-
    .hero {
-      margin-top: 30px;
-      display: block;
+      margin-top: 0px;
+      display: flex;
+      justify-content: center;
    }
 
    .hero .wrapper.hero {
-      display: block;
+      width: 600px;
    }
 
-   .kanan-hero,
-   .portal-hero {
-      display: none;
+   .wrapper.hero .kiri-hero {
+      width: 600px;
    }
 
-   .kiri-hero .title-hero h1 {
-      font-size: 145px;
+   .first-section-hero .title-hero {
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .first-section-hero .title-hero h1 {
+      font-size: 173px;
    }
 
    .kiri-hero .title-hero h2 {
-      font-size: 82px;
+      font-size: 98px;
    }
 
    .second-section-hero .social-hero {
-      gap: 36px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
    }
 
    .second-section-hero .btn-cv {
-      width: 500px;
-      margin-top: 35px;
+      width: 600px;
    }
 
-   .wrapper.hero .second-section-hero {
-      margin-top: 50px;
+   .portal-hero,
+   .kanan-hero {
+      display: none;
    }
 }
 
@@ -225,6 +235,10 @@ nav {
 @media (max-width: 458px) {
    .wrapper {
       width: 300px;
+   }
+   
+   nav {
+      position: absolute;
    }
 
    #hamburger-menu {
@@ -259,4 +273,61 @@ nav {
       margin: 20px;
       gap: 30px;
    }
+
+   .hero .wrapper.hero {
+      width: 300px;
+   }
+
+   .wrapper.hero .kiri-hero {
+      width: 300px;
+      margin-top: auto;
+   }
+
+   .first-section-hero .title-hero {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .first-section-hero .title-hero h1 {
+      font-size: 87px;
+      margin-top: 10px;
+   }
+
+   .kiri-hero .title-hero h2 {
+      font-size: 49px;
+   }
+
+   .wrapper.hero .second-section-hero {
+      margin-top: 40px;
+   }
+
+   .second-section-hero .social-hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+   }
+
+   .second-section-hero .social-hero img {
+      width: 40px;
+      height: 40px;
+   }
+
+   .second-section-hero .btn-cv {
+      width: 300px;
+      margin-top: 25px;
+   }
+
+   .second-section-hero .btn-cv p {
+      font-size: 16px;
+   }
+
+   .second-section-hero .btn-cv i {
+      font-size: 18px;
+   }
+
+   /* .navbar-nav {
+      display: none;
+   } */
 }
