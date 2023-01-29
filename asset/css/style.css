@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600&display=swap");
 
 * {
    margin: 0px;
@@ -163,15 +163,73 @@ nav {
    color: var(--color-font);
 }
 
+/* Dawn Section */
+.wrapper.dawn {
+   background-color: #0b0b0b;
+   margin-top: 155px;
+   border-radius: 30px;
+   height: 372px;
+   border: 2px solid #646464;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 77px;
+}
+
+.wrapper.dawn h1 {
+   font-weight: 400;
+   font-size: 128px;
+   line-height: 90%;
+   color: var(--color-primary);
+   margin-bottom: 20px;
+}
+
+.wrapper.dawn p {
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 100%;
+   color: var(--color-primary);
+   font-family: "Poppins", sans-serif;
+}
+
 /* Media Queries */
 
 /* Laptop */
 @media (max-width: 1366px) {
-   html {
-      font-size: 12px;
+   .hero {
+      margin-top: 4px;
    }
+
    .wrapper {
-      width: 700px;
+      width: 900px;
+   }
+
+   .hero .wrapper.hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .wrapper.dawn {
+      gap: 35px;
+      height: 280px;
+      margin-top: 100px;
+   }
+
+   .wrapper.dawn h1 {
+      font-size: 64px;
+      margin-bottom: 15px;
+      text-align: center;
+   }
+
+   .wrapper.dawn p {
+      font-size: 22px;
+      text-align: center;
+   }
+
+   .wrapper.dawn img {
+      width: 50px;
    }
 
    .portal-hero,
@@ -190,6 +248,7 @@ nav {
       margin-top: 0px;
       display: flex;
       justify-content: center;
+      height: 570px;
    }
 
    .hero .wrapper.hero {
@@ -197,22 +256,22 @@ nav {
    }
 
    .wrapper.hero .kiri-hero {
-      width: 600px;
+      width: 495px;
    }
 
    .first-section-hero .title-hero {
-      width: 600px;
+      width: 495px;
       display: flex;
       flex-direction: column;
       align-items: center;
    }
 
    .first-section-hero .title-hero h1 {
-      font-size: 173px;
+      font-size: 140px;
    }
 
    .kiri-hero .title-hero h2 {
-      font-size: 98px;
+      font-size: 79px;
    }
 
    .second-section-hero .social-hero {
@@ -222,7 +281,23 @@ nav {
    }
 
    .second-section-hero .btn-cv {
-      width: 600px;
+      width: 495px;
+   }
+
+   .wrapper.dawn h1 {
+      font-size: 44px;
+   }
+
+   .wrapper.dawn p {
+      font-size: 12px;
+   }
+
+   .wrapper.dawn img {
+      width: 38px;
+   }
+
+   .wrapper.dawn {
+      height: 200px;
    }
 
    .portal-hero,
@@ -263,8 +338,8 @@ nav {
       background: var(--color-bg);
       overflow: hidden;
    }
-   .navbar-nav.active{
-      height: 450px;
+   .navbar-nav.active {
+      height: 100vh;
    }
 
    .navbar-nav ul {
@@ -333,6 +408,23 @@ nav {
 
    .second-section-hero .btn-cv i {
       font-size: 18px;
+   }
+
+   .hero {
+      height: 420px;
+   }
+
+   .wrapper.dawn {
+      display: flex;
+      flex-direction: column;
+      height: max-content;
+
+      height: 440px;
+      gap: 70px;
+   }
+
+   .wrapper.dawn img {
+      display: none;
    }
 
    /* .navbar-nav {
