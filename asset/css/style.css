@@ -308,6 +308,23 @@ nav {
       width: 50px;
    }
 
+   .product .product-card {
+      width: 417px;
+   }
+
+   .product .product-card img {
+      width: 357px;
+   }
+   
+   .product .product-card .product-tag {
+      gap: 5px;
+      justify-content: flex-start;
+   }
+   
+   .product .product-card .btn-product {
+      width: 357px;
+   }
+
    .portal-hero,
    .kanan-hero {
       display: none;
