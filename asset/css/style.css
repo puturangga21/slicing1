@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;600&display=swap");
 
 * {
    margin: 0px;
@@ -141,6 +141,10 @@ nav {
    gap: 75px;
 }
 
+.second-section-hero .social-hero img:hover {
+   transform: translateY(-5px);
+}
+
 .second-section-hero .btn-cv {
    width: 700px;
    height: 52px;
@@ -150,6 +154,10 @@ nav {
    align-items: center;
    justify-content: center;
    gap: 8px;
+}
+
+.second-section-hero .btn-cv:hover {
+   background: #0f0f0f;
 }
 
 .second-section-hero .btn-cv p {
@@ -167,6 +175,7 @@ nav {
 .wrapper.dawn {
    background-color: #0b0b0b;
    margin-top: 155px;
+   margin-bottom: 200px;
    border-radius: 30px;
    height: 372px;
    border: 2px solid #646464;
@@ -193,8 +202,75 @@ nav {
    font-family: "Poppins", sans-serif;
 }
 
-/* Media Queries */
+/* Portofolio */
+.wrapper.portof h1 {
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 100%;
+   color: var(--color-font);
+   margin-bottom: 36px;
+}
 
+.wrapper.portof .product {
+   display: flex;
+   gap: 45px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.product .product-card {
+   background-color: #0b0b0b;
+   border: 2px solid #646464;
+   width: 360px;
+   border-radius: 10px;
+}
+
+.product .product-card img {
+   margin: 30px;
+}
+
+.product .product-card h4 {
+   color: var(--color-font);
+   font-size: 28px;
+   font-family: "Poppins", sans-serif;
+   margin: auto 30px;
+   margin-bottom: 20px;
+}
+
+.product .product-card .product-tag {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto 30px;
+   margin-bottom: 22px;
+}
+
+.product .product-card .product-tag p {
+   color: var(--color-font);
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   color: var(--color-primary2);
+   padding: 4px 8px;
+   background-color: #e9dffc;
+   border-radius: 14px;
+   border: 1px solid var(--color-primary2);
+   font-size: 14px;
+}
+
+.product .product-card .btn-product {
+   margin: auto 30px;
+   width: 300px;
+   height: 40px;
+   margin-bottom: 30px;
+   background-color: #292929;
+   color: var(--color-font);
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   border: none;
+}
+
+/* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
    .hero {
