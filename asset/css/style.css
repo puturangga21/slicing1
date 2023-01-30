@@ -7,6 +7,7 @@
    box-sizing: border-box;
    list-style: none;
    text-decoration: none;
+   scroll-behavior: smooth;
 
    /* border: 0.5px solid white; */
 }
@@ -203,6 +204,10 @@ nav {
 }
 
 /* Portofolio */
+.wrapper.portof {
+   margin-bottom: 200px;
+}
+
 .wrapper.portof h1 {
    font-weight: 400;
    font-size: 64px;
@@ -270,6 +275,79 @@ nav {
    border: none;
 }
 
+/* SKILLS */
+.wrapper.skill {
+   margin-bottom: 200px;
+}
+
+.wrapper.skill h1 {
+   font-weight: 400;
+   font-size: 64px;
+   color: var(--color-font);
+
+   margin-bottom: 50px;
+}
+
+.wrapper.skill .skill-frame {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 40px;
+}
+
+.skill-frame .skill-card {
+   width: 770px;
+   height: 320px;
+   border: 1px solid #737373;
+   border-radius: 10px;
+
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.skill-card .skill-graph {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.skill-card .skill-graph p {
+   position: absolute;
+   font-weight: 500;
+   font-size: 36px;
+   color: var(--color-font);
+}
+
+.skill-card .skill-desc {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+   width: 440px;
+}
+
+.skill-card .skill-desc h3 {
+   font-weight: 500;
+   font-size: 34px;
+   color: var(--color-font);
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
+   line-height: 100%;
+   margin-bottom: 20px;
+}
+
+.skill-card .skill-desc p {
+   font-weight: 400;
+   font-size: 16px;
+   color: var(--color-font);
+   line-height: 120%;
+   font-weight: 300;
+   font-family: "Poppins", sans-serif;
+}
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
@@ -315,12 +393,12 @@ nav {
    .product .product-card img {
       width: 357px;
    }
-   
+
    .product .product-card .product-tag {
       gap: 5px;
       justify-content: flex-start;
    }
-   
+
    .product .product-card .btn-product {
       width: 357px;
    }
@@ -391,6 +469,26 @@ nav {
 
    .wrapper.dawn {
       height: 200px;
+      margin-bottom: 150px;
+   }
+
+   .product .product-card {
+      width: 275px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .product .product-card img {
+      width: auto;
+   }
+
+   .product .product-card .btn-product {
+      width: auto;
+   }
+
+   .product .product-card .product-tag p {
+      font-size: 9px;
    }
 
    .portal-hero,
@@ -514,6 +612,18 @@ nav {
 
       height: 440px;
       gap: 70px;
+   }
+
+   .wrapper.portof .product {
+      gap: 20px;
+   }
+
+   .product .product-card {
+      width: 300px;
+   }
+
+   .wrapper.portof h1 {
+      text-align: center;
    }
 
    .wrapper.dawn img {
