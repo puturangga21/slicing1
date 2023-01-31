@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap");
 
 * {
    margin: 0px;
@@ -275,6 +275,10 @@ nav {
    border: none;
 }
 
+.product .product-card .btn-product:hover {
+   background: #0f0f0f;
+}
+
 /* SKILLS */
 .wrapper.skill {
    margin-bottom: 200px;
@@ -348,6 +352,43 @@ nav {
    font-family: "Poppins", sans-serif;
 }
 
+/* KALEB */
+.section-kaleb {
+   background: url("../img/bg-kaleb.png");
+   height: 800px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.section-kaleb .wrapper.kaleb {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.section-kaleb .wrapper.kaleb h1 {
+   font-weight: 600;
+   font-size: 48px;
+   color: var(--color-font);
+   font-family: "Poppins", sans-serif;
+   margin-top: 148px;
+}
+
+.section-kaleb .wrapper.kaleb p {
+   font-weight: 700;
+   font-size: 48px;
+   color: var(--color-font);
+   font-family: "Poppins", sans-serif;
+   font-style: italic;
+   margin-top: 60px;
+   line-height: 105%;
+   width: 1094px;
+   margin-bottom: 60px;
+   text-align: center;
+}
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
@@ -401,6 +442,27 @@ nav {
 
    .product .product-card .btn-product {
       width: 357px;
+   }
+
+   .skill-frame .skill-card {
+      width: 900px;
+      gap: 40px;
+   }
+
+   .skill-card .skill-graph {
+      margin-left: 45px;
+   }
+
+   .skill-card .skill-desc h3 {
+      font-size: 38px;
+   }
+
+   .skill-card .skill-desc p {
+      font-size: 18px;
+   }
+
+   .section-kaleb .wrapper.kaleb p {
+      width: 900px;
    }
 
    .portal-hero,
@@ -489,6 +551,32 @@ nav {
 
    .product .product-card .product-tag p {
       font-size: 9px;
+   }
+
+   .skill-frame .skill-card {
+      width: 600px;
+      gap: 15px;
+   }
+
+   .skill-card .skill-graph {
+      margin-left: 20px;
+   }
+
+   .skill-card .skill-desc h3 {
+      font-size: 34px;
+   }
+
+   .skill-card .skill-desc p {
+      font-size: 16px;
+   }
+
+   .section-kaleb .wrapper.kaleb h1 {
+      font-size: 40px;
+   }
+
+   .section-kaleb .wrapper.kaleb p {
+      width: 600px;
+      font-size: 40px;
    }
 
    .portal-hero,
@@ -629,6 +717,53 @@ nav {
    .wrapper.dawn img {
       display: none;
    }
+
+   .skill-frame .skill-card {
+      width: 300px;
+      height: 500px;
+      gap: 15px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .skill-card .skill-desc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 260px;
+   }
+
+   .skill-card .skill-graph {
+      margin-left: 0px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+   }
+
+   .skill-card .skill-desc h3 {
+      text-align: center;
+   }
+
+   .skill-card .skill-desc p {
+      font-size: 16px;
+      text-align: center;
+   }
+
+   .wrapper.skill h1 {
+      text-align: center;
+   }
+
+   .section-kaleb .wrapper.kaleb p {
+      width: 300px;
+      font-size: 25px;
+   }
+
+   .section-kaleb .wrapper.kaleb h1 {
+      font-size: 22px;
+   }
+   
 
    /* .navbar-nav {
       display: none;
