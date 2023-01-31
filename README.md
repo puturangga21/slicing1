@@ -1,7 +1,8 @@
 <br/>
 <p align="center">
   <a href="https://github.com/puturangga21/slicing-1">
-    <img src="asset/img/logo-mini.svg" alt="Logo" width="80" height="80">
+    <img src="https://puturangga21.github.io/slicing-1/asset/img/logo-mini.svg" alt="Logo" width="80" height="80">
+
   </a>
 
   <h3 align="center">Slicing Figma to HTML</h3>
@@ -26,16 +27,8 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
