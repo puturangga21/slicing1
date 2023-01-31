@@ -623,6 +623,56 @@ nav {
       width: 900px;
    }
 
+   .wrapper.about .row-1 .kiri-1 p {
+      width: 350px;
+      font-size: 20px;
+   }
+
+   .wrapper.about .row-1 .head {
+      margin-bottom: 20px;
+   }
+
+   .wrapper.about .row-1 .head h1 {
+      font-size: 38px;
+   }
+
+   .wrapper.about .row-1 .head img {
+      width: 150px;
+   }
+
+   .wrapper.about .row-3 p {
+      width: 350px;
+      font-size: 20px;
+   }
+
+   .wrapper.about .row-1,
+   .row-2 {
+      align-items: unset;
+   }
+
+   .wrapper.about .row-1 .kanan-1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .wrapper.about .row-1 .kanan-1 img {
+      width: 450px;
+   }
+
+   .wrapper.about .row-2 p {
+      width: 350px;
+      font-size: 20px;
+   }
+
+   .wrapper.about .row-2 img {
+      width: 450px;
+   }
+
+   .wrapper.about .row-3 img {
+      width: 450px;
+   }
+
    .portal-hero,
    .kanan-hero {
       display: none;
@@ -735,6 +785,41 @@ nav {
    .section-kaleb .wrapper.kaleb p {
       width: 600px;
       font-size: 40px;
+   }
+
+   .wrapper.about .row-1 .head h1 {
+      font-size: 28px;
+   }
+
+   .wrapper.about .row-1 .head img {
+      width: 90px;
+   }
+
+   .wrapper.about .row-1 .kiri-1 p {
+      width: 235px;
+      font-size: 14px;
+   }
+
+   .wrapper.about .row-1 .kanan-1 img {
+      width: 300px;
+   }
+
+   .wrapper.about .row-2 img {
+      width: 300px;
+   }
+
+   .wrapper.about .row-2 p {
+      width: 235px;
+      font-size: 14px;
+   }
+
+   .wrapper.about .row-3 p {
+      width: 235px;
+      font-size: 14px;
+   }
+
+   .wrapper.about .row-3 img {
+      width: 300px;
    }
 
    .portal-hero,
@@ -920,6 +1005,41 @@ nav {
 
    .section-kaleb .wrapper.kaleb h1 {
       font-size: 22px;
+   }
+
+   .wrapper.about .row-1,
+   .row-3 {
+      align-items: unset;
+      flex-direction: column;
+   }
+
+   .wrapper.about .row-2 {
+      align-items: unset;
+      flex-direction: column-reverse;
+   }
+
+   .wrapper.about .row-1 .head h1 {
+      font-size: 34px;
+   }
+
+   .wrapper.about .row-1 .kiri-1 p {
+      width: 270px;
+      font-size: 16px;
+      margin-bottom: 30px;
+   }
+
+   .wrapper.about .row-2 p {
+      width: 270px;
+      font-size: 16px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+   }
+
+   .wrapper.about .row-3 p {
+      width: 270px;
+      font-size: 16px;
+      margin-bottom: 30px;
+      margin-top: 30px;
    }
 
    /* .navbar-nav {
