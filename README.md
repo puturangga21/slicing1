@@ -59,5 +59,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/puturangga21
 
 * **Putu Rangga** - *Student* - [puturangga21](https://github.com/puturangga21/)
 
-![image](https://user-images.githubusercontent.com/61723244/215716788-6e53fc13-6f2b-4b48-a7e3-960d12ed1490.png)
-![image](https://user-images.githubusercontent.com/61723244/215717574-31a05c25-bd6b-4724-9634-faeda517f1c9.png)
+
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
