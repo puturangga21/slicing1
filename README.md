@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/puturangga21/slicing-1">
-    <img src="https://puturangga21.github.io/slicing-1/asset/img/logo-mini.svg" alt="Logo" width="80" height="80">
+    <img src="https://puturangga21.github.io/slicing-1/asset/img/logo-mini-black.svg" alt="Logo" width="80" height="80">
 
   </a>
 
